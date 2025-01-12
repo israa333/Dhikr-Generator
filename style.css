@@ -41,6 +41,7 @@ h1{
     color: #d5d8dc;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 30px; /* 30px space below */
+    padding-left: 10px;
 
 
 
@@ -57,11 +58,11 @@ p{
     flex-direction: column;
     padding: 10px 20px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     gap: 10px; /* Space between icon and text */
-    margin-top: 80px
+    margin-top: 80px;
 
     
     }
@@ -69,9 +70,8 @@ p{
 button{
     background: none;
     color: #16a085;
-    padding: 10px 20px;
-    border: 2px solid #16a085;
-    border-radius: 5px;
+    border: 3px solid #16a085;
+    border-radius: 50px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
